@@ -1,0 +1,37 @@
+# EAS uses this file instead of .gitignore when it exists.
+# .env is deliberately NOT listed: it only holds public EXPO_PUBLIC_ keys and the build needs them.
+
+# Dependencies & caches
+node_modules/
+.expo/
+dist/
+web-build/
+
+# Native folders (EAS generates them)
+android/
+ios/
+
+# Version control & IDE
+.git/
+.idea/
+.vscode/
+
+# Logs & archives
+*.log
+npm-debug.log*
+*.apk
+*.aab
+*.zip
+
+# Local-only env overrides
+.env.local
+.env.*.local
+
+# Store art & docs (not needed on the build machine)
+store/
+
+# Signing keys must never upload
+*.jks
+*.p8
+*.p12
+*.key
