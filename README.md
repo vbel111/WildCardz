@@ -74,3 +74,4 @@ Then follow the checklist in `docs/STORE_LISTING.md` (listing text, content rati
 - `app.config.ts`: `ANDROID_PACKAGE` / `IOS_BUNDLE_ID` (can never change after publishing)
 - `.env`: privacy/terms URLs and support email (host `docs/privacy-policy.md` and `docs/terms.md` somewhere public, e.g. your site or a Vercel page)
 - Version: bump `version` in `app.config.ts` for each store release (build numbers auto-increment on EAS)
+# WildCardz
