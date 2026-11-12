@@ -8,6 +8,7 @@ const IOS_BUNDLE_ID = 'com.zdev.wildcardz';
 const config: ExpoConfig = {
   name: 'Wildcardz',
   slug: 'wildcardz',
+  owner: 'o6elvis',
   scheme: 'wildcardz',
   version: '1.0.0',
   orientation: 'portrait',
@@ -46,6 +47,10 @@ const config: ExpoConfig = {
       'android.permission.ACCESS_FINE_LOCATION',
       'android.permission.ACCESS_COARSE_LOCATION',
       'com.google.android.gms.permission.AD_ID',
+      'android.permission.ACTIVITY_RECOGNITION',
+      'com.google.android.gms.permission.ACTIVITY_RECOGNITION',
+      'android.permission.BODY_SENSORS',
+      'android.permission.HIGH_SAMPLING_RATE_SENSORS',
     ],
   },
   plugins: [
@@ -79,8 +84,7 @@ const config: ExpoConfig = {
   extra: {
     router: {},
     eas: {
-      // Filled in automatically the first time you run `eas init` / `eas build`.
-      projectId: process.env.EAS_PROJECT_ID,
+      projectId: 'f147d037-8eef-4a57-b5b5-0be783c67206',
     },
   },
 };
